@@ -15,6 +15,10 @@
         "react"
     ],
     "rules": {
+        "react/no-unused-state": 2,
+        "react/prefer-stateless-function": 2,
+        "react/no-direct-mutation-state": 2,
+        "no-console": 0,
         "react/jsx-key": 2,
         "react/jsx-uses-vars": 2,
         "react/jsx-uses-react": 2,
@@ -48,5 +52,5 @@
             "always"
         ]
     }
-    
+
 }
